@@ -7,7 +7,7 @@ navLinks.forEach(link => {
     link.addEventListener('mouseover', (e)=> {
         let attrX = e.offsetX - 20 ;
         let attrY = e.offsetY - 13;
-        link.style.transform = 'translate(${attrX}px, ${attrY}px)';
+        link.style.transform = `translate(${attrX}px, ${attrY}px)`;
     })
 
     link.addEventListener('mouseleave',()=>{
