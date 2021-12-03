@@ -15,6 +15,7 @@ const Home = () => {
                     <h2>
                         <DynamicText />
                     </h2>
+                    <h3>test</h3>
                     </div>
                 </div>
 
