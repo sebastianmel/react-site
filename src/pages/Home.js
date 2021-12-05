@@ -1,4 +1,5 @@
 import React from 'react';
+import ButtonsBottom from '../components/ButtonsBottom';
 import DynamicText from '../components/DynamicText';
 import Navigation from '../components/Navigation';
 import SocialNetwork from '../components/SocialNetwork';
@@ -10,15 +11,15 @@ const Home = () => {
                 <Navigation />
                 <SocialNetwork />
                 <div className="home-main">
-                    <div className="min-content">
+                    <div className="main-content">
                     <h1>FS AGENCY</h1>
                     <h2>
                         <DynamicText />
                     </h2>
-                    <h3>test</h3>
+                    
                     </div>
                 </div>
-
+                <ButtonsBottom right={"/project-1"}/>
             </div>
         </div>
     );
