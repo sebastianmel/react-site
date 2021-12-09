@@ -1,8 +1,10 @@
 import React from 'react';
 import CopyToClipboard from 'react-copy-to-clipboard';
+import ButtonsBottom from '../components/ButtonsBottom';
 import Logo from '../components/Logo';
 import Mouse from '../components/Mouse';
 import Navigation from '../components/Navigation';
+import SocialNetwork from '../components/SocialNetwork';
 
 const Contact = () => {
     return (
@@ -42,8 +44,12 @@ const Contact = () => {
                         </CopyToClipboard>
                     </div>
                 </div>
+                <SocialNetwork/>
+                <div className="credits">
+                    <p>sebastian -2021</p>
+                </div>
             </div>
-
+                            <ButtonsBottom left={'/project-4'}></ButtonsBottom>
             </div>
             
         </main>
