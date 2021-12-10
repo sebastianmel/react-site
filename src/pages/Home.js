@@ -17,6 +17,7 @@ const Home = () => {
                     <h1>FS AGENCY</h1>
                     <h2>
                         <DynamicText />
+                        
                     </h2>
                     
                     </div>
