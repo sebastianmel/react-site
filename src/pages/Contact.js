@@ -21,6 +21,7 @@ const Contact = () => {
                         <p>45 rue Martin</p>
                         
                         
+                        
                         <p>75110  Paris</p>
                     </div>
                 </div>
